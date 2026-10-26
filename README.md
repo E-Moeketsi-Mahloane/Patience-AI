@@ -124,34 +124,6 @@ Healthcare Staff
 
 ---
 
-## Team Mates and Roles:
-
-**Project Manager:** 
-
-1. Angel Mavuyangwa
-
-**Developers:** 
-
-2. Moeketsi Mahloane
-
-3. Atlegang More
-
-4. Michael Kaniki
-
-**System Analysts:**
-
-5. Linda Skhosana
-
-6. Loyiso Hlophe
-
-**Testers:** 
-
-7. Murendeni Rasilingwane
-
-8. Khanyisile Hlatshwayo
-
----
-
 ## Project Status
 
 **Under Development**
