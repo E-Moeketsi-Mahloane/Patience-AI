@@ -1,2 +1,172 @@
-# Patience-AI
-AI under healthcare sector
+# Predict-Care AI
+<div align="Center">
+
+![Institutional Project:](https://img.shields.io/badge/Institution-Vaal%20University%20of%20Technology-blue?style=for-the-badge&logo=codeforces&logoColor=white)
+![Academic Year](https://img.shields.io/badge/3rd%20Year%20IT-orange?style=for-the-badge)
+![Project Status](https://img.shields.io/badge/In%20Development-success?style=for-the-badge)
+![License:](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
+
+</div>
+<div align="center">
+  <img src="Project%20Documentation/artificial-intelligence-ai-icon.svg"
+       alt="Predict-Care AI Icon"
+       width="150">
+</div>
+
+---
+
+### AI-Driven Patient Management & Healthcare Operations Decision Support System
+
+Predict-Care AI is an AI-driven healthcare system designed to support patient management, triage analysis, patient flow, and hospital operational decision-making.
+
+The system uses machine learning to analyse patient and hospital operational data, identify patterns, and provide predictions that can assist healthcare staff in making informed operational decisions.
+
+## Project Objectives
+
+* Support AI-assisted patient triage analysis.
+* Improve understanding of patient flow and hospital workload.
+* Predict hospital waiting times and operational outcomes.
+* Analyse peak-time hospital conditions.
+* Support healthcare resource planning and allocation.
+* Provide data-driven decision support for healthcare staff.
+
+---
+
+## AI & Machine Learning
+
+The project currently focuses on two main machine-learning components:
+
+### 1. Patient Triage Prediction
+
+Uses emergency patient data to analyse patient characteristics and predict the associated triage category.
+
+**Algorithm:** Random Forest Classifier
+
+**Target:** `KTAS_expert`
+
+### 2. Hospital Performance Prediction
+
+Uses hospital simulation data to analyse operational conditions and predict hospital performance outcomes such as waiting times.
+
+**Algorithm:** Random Forest Regressor
+
+**Target:** `Hospital_Performance`
+
+**Key operational factors:**
+
+* Patient priority
+* Peak arrival conditions
+* Number of doctors
+* Peak limits
+* Hospital scenario
+
+**Key performance outcomes:**
+
+* Doctor waiting time
+* Medication waiting time
+* Total time in hospital
+
+---
+## Datasets
+
+### Emergency Service Triage Dataset
+
+Used for patient and triage analysis.
+
+The dataset contains emergency-department patient information including demographic information, arrival details, pain, vital signs, injury, mental state, and triage classifications.
+
+*link:* [Emergency Service Triage Dataset.](https://www.kaggle.com/datasets/ilkeryildiz/emergency-service-triage-application)
+
+### Hospital Simulation Dataset
+
+Used for analysing hospital operations under different scenarios, including peak arrival conditions, staffing levels, patient priority, service times, and waiting times.
+
+*link:* [Hospital Simulation Dataset.](https://www.kaggle.com/datasets/juneminazuki/hospital-queue-and-patient-flow-simulation)
+
+---
+
+## System Concept
+
+```text
+Patient Information
+        ↓
+AI Triage Analysis
+        ↓
+Triage Prediction
+        ↓
+Patient Flow
+        ↓
+Hospital Operational Analysis
+        ↓
+Waiting-Time / Performance Prediction
+        ↓
+AI Decision Support
+        ↓
+Healthcare Staff
+```
+
+---
+
+## Technologies
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* Statsmodels
+* Joblib
+* Machine Learning
+* Time-Series Analysis
+
+---
+
+## Team Mates and Roles:
+
+**Project Manager:** 
+
+1. Angel Mavuyangwa
+
+**Developers:** 
+
+2. Moeketsi Mahloane
+
+3. Atlegang More
+
+4. Michael Kaniki
+
+**System Analysts:**
+
+5. Linda Skhosana
+
+6. Loyiso Hlophe
+
+**Testers:** 
+
+7. Murendeni Rasilingwane
+
+8. Khanyisile Hlatshwayo
+
+---
+
+## Project Status
+
+**Under Development**
+
+The machine-learning models have been developed and evaluated, and work is underway to integrate them with a local language-understanding system. The current focus is on enabling the system to interpret user requests, trigger the appropriate predictions, and return clear, reliable responses without depending on an external language model.
+
+## Scope
+
+Predict-Care AI is intended as a **decision-support system**. It is designed to assist healthcare staff with data analysis, predictions, patient-flow understanding, and operational planning.
+
+It does not replace healthcare professionals or make autonomous clinical decisions.
+
+---
+
+**Predict-Care AI**
+*Using AI to support smarter healthcare operations and patient management.*
+
+**Note:** *This is for educational Purposes only, developed by students of Vaal University Of Technology.*

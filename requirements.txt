@@ -1,0 +1,14 @@
+pandas
+numpy
+scikit-learn
+statsmodels
+joblib
+openpyxl
+faster-whisper
+PyAudio
+pyttsx3
+keras
+torch
+matplotlib
+tkinter
+SpeechRecognition
